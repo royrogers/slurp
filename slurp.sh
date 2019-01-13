@@ -38,7 +38,7 @@ apt-get install golang
 wget https://archive.org/download/github.com-bbb31-slurp_-_2017-12-05_23-19-32/bbb31-slurp_-_2017-12-05_23-19-32.bundle
 git clone bbb31-slurp_-_2017-12-05_23-19-32.bundle
 mv bbb31-slurp_-_2017-12-05_23-19-32 slurp
-#mv slurp/vendor slurp/src
+mv slurp/vendor slurp/src
 export GOPATH=/opt/slurp
 cd /opt/slurp
 go build
